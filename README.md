@@ -37,15 +37,15 @@ The channel 1 connector has two more cables, in addition to the already descibed
 ##Connections:
 
 ```
-                                      |-----------------------|
-                                      |                       |
- -------------------------------      | ------------------    |     ----------------------------|
- |                             |      | |    Arduino -1  |    |----|-GND       Arduino -2       |
- |  RC          Channel 1 GND -|------|-|-GND     Tx  D7-|---------|-D0 Rx DIY servo controller |------> To the motor driver
- | Receiver     Channel 1 Vdd -|---|----|-Vin     Rx  D6-|---------|-D1 Tx                      |
- |           Channel 1 Signal -|---|----|-D19 (A5)       |         |                            |<------ From the Quad encoder
- |-----------------------------|   |    |----------------|      |--|-Vin                        |
-      |      |                     |----------------------------|  |----------------------------|
+                                    |------------------------|
+                                    |                        |
+ -------------------------------    |  ------------------    |     ----------------------------
+ |                             |    |  |    Arduino -1  |    |----|-GND       Arduino -2       |
+ |  RC          Channel 1 GND -|----|--|-GND     Tx  D7-|---------|-D0 Rx DIY servo controller |------> To the motor driver
+ | Receiver     Channel 1 Vdd -|--|----|-Vin     Rx  D6-|---------|-D1 Tx                      |
+ |           Channel 1 Signal -|--|----|-D19 (A5)       |         |                            |<------ From the Quad encoder
+ |-----------------------------|  |    |----------------|      |--|-Vin                        |
+      |      |                    |----------------------------|  |----------------------------|
     + |    - |
     ------------
     | Battery  |
